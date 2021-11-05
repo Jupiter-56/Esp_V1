@@ -114,7 +114,13 @@ nav.nav li a {
 
 .content{
     background: #F7F9FB;
-    margin-top: 800px;
+    margin-top: 400px;
+
+}
+
+.pre-content{
+    margin-top: 1000px;
+    background: #F7F9FB;
 }
 /*Title Home */
 
@@ -164,6 +170,7 @@ nav.nav li a {
     margin-top: 80px;
     margin-left: 150px;
     text-align: left;
+    font-size:  35px;
     font-family: 'Abril FatFace', cursive;
 }
 
@@ -264,55 +271,16 @@ nav.nav li a {
 
 
 .title-visit2{
-    margin-top: 50px;
+    margin-top: 60px;
     color: #5085A5;
     margin-left: 150px;
     text-align: left;
+    font-size:  35px;
     font-family: 'Abril FatFace', cursive;
 }
 
 .presentation{
     margin-top: 50px ;
-    margin-left: 250px ;
-    margin-right: 250px ;
-    line-height: 30px;
-}
-
-
-.paraph-1{
-
-    margin-left: 800px ;
-    margin-right: 300px ;
-    margin-top: -270px;
-    line-height: 35px;
-
-}
-
-.chica-pic{
-    width: 25%;
-    margin-left: 350px ;
-    margin-top: 20px;
-    border-radius: 10px;
-}
-
-.paraph-2{
-
-    margin-right: 800px ;
-    margin-left: 250px ;
-    margin-top: -220px;
-    line-height: 35px;
-}
-
-.trip-pic{
-
-    width: 25%;
-    margin-left: 850px ;
-    margin-top: 20px;
-    border-radius: 10px;
-}
-
-.recomendation{
-    margin-top: 60px ;
     margin-left: 250px ;
     margin-right: 250px ;
     line-height: 30px;
@@ -382,5 +350,58 @@ nav.nav li a {
     .location-image img {
         filter: blur(2px);
     }
+}
+
+.grid-1 {
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 100px;
+    position: relative;
+}
+
+.grid-2{
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 100px;
+    position: relative;
+}
+
+.text-content1 {
+    grid-column: 3 / span 2;
+    line-height: 35px;
+    margin-right: 300px;
+}
+
+.chica-pic{
+    width: 40%;
+    margin-left: 300px;
+    grid-column: 1 / span 2;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.text-content2 {
+    grid-column: 1 / span 2;
+    line-height: 35px;
+    margin-left: 300px;
+    margin-top: 100px;
+
+}
+
+.trip-pic{
+    grid-column: 3 / span 2;
+    width: 45%;
+    margin-top: 20px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.recomendation{
+    margin-top: 175px ;
+    margin-left: 250px ;
+    margin-right: 250px ;
+    line-height: 30px;
 }
 
