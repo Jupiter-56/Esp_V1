@@ -1,0 +1,362 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+* {
+    font-family: 'Montserrat';
+    scroll-behavior: smooth;
+}
+
+html {
+    scroll-behavior: smooth;
+    background: #F7F9FB;
+}
+
+body {
+    margin: 0 auto;
+}
+
+/* tete de page */
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+header.header img {
+    width: 100px;
+}
+
+section.top-page {
+    margin:0;
+    background: url('../images/bg2.jpg') no-repeat center fixed;
+    background-size: cover;
+    height: 85vh;
+    padding: 54.5px;
+}
+
+/* page de bienvenue (landing page) */
+
+.landing-page {
+    position: relative;
+    padding: 20px 55px;
+}
+
+.big-title {
+
+    color: #F7F9FB;
+    font-size:  120px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    width: 50%;
+    margin: 30px;
+}
+
+/*Scroll*/
+
+.scroll-downs {
+    position: absolute;
+    top: 610px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+    width :34px;
+    height: 55px;
+}
+.mousey {
+    width: 3px;
+    padding: 10px 15px;
+    height: 35px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    opacity: 0.75;
+    box-sizing: content-box;
+}
+.scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: #fff;
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+    animation-iteration-count: infinite;
+}
+@keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(15px); opacity: 0;}
+}
+/* menu de navigation */
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 300px;
+    margin-left: 30px;
+}
+
+nav.nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+.content{
+    background: #F7F9FB;
+    margin-top: -50px;
+}
+/*Title Home */
+
+.title-home{
+    color: #5085A5;
+    font-size: 50px;
+    margin-top: 70px;
+    text-align: center;
+    font-family: 'Abril FatFace', cursive;
+
+}
+
+.desc-bolivie{
+    text-align: left;
+    margin-left: 900px;
+    margin-right: 300px;
+    margin-top: 100px;
+    line-height: 30px;
+}
+
+.map-bolivie{
+    width: 30%;
+    margin-left: 300px;
+    margin-top: -260px;
+    border-radius: 10px;
+}
+
+/*Que visitar*/
+
+.title-visit{
+    color: #5085A5;
+    margin-top: 80px;
+    margin-left: 150px;
+    text-align: left;
+    font-family: 'Abril FatFace', cursive;
+}
+
+.title-place{
+    color: #272829;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.txt-place{
+    text-align: center;
+    margin-top: 30px ;
+    margin-left: 300px ;
+    margin-right: 300px ;
+    line-height: 30px;
+
+}
+
+.lapaz-pic{
+    width: 35%;
+    align-items: center;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-left: 515px ;
+    margin-top: 10px;*/
+    border-radius: 10px;
+}
+
+.lago-pic{
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.parque1-pic{
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.salar-pic{
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.joyas-pic{
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.potosi-pic{
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.SUCRE-pic{
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+
+}
+
+.parque2-pic{
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+
+}
+
+.santacruz-pic{
+    width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+/*Ir a Bolovia*/
+
+
+.title-visit2{
+    margin-top: 50px;
+    color: #5085A5;
+    margin-left: 150px;
+    text-align: left;
+    font-family: 'Abril FatFace', cursive;
+}
+
+.presentation{
+    margin-top: 50px ;
+    margin-left: 250px ;
+    margin-right: 250px ;
+    line-height: 30px;
+}
+
+
+.paraph-1{
+
+    margin-left: 800px ;
+    margin-right: 300px ;
+    margin-top: -270px;
+    line-height: 35px;
+
+}
+
+.chica-pic{
+    width: 25%;
+    margin-left: 350px ;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.paraph-2{
+
+    margin-right: 800px ;
+    margin-left: 250px ;
+    margin-top: -220px;
+    line-height: 35px;
+}
+
+.trip-pic{
+
+    width: 25%;
+    margin-left: 850px ;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.recomendation{
+    margin-top: 60px ;
+    margin-left: 250px ;
+    margin-right: 250px ;
+    line-height: 30px;
+}
+
+
+/*Pic end*/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1em;
+}
+
+
+/* hover styles */
+.location-listing {
+    position: relative;
+}
+
+.location-image {
+    line-height: 0;
+    overflow: hidden;
+}
+
+.location-image img {
+    filter: blur(0px);
+    transition: filter 0.3s ease-in;
+    transform: scale(1.1);
+}
+
+.location-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .5s;
+    background: rgba(90,0,10,0.4);
+    color: white;
+
+    /* position the text in t’ middle*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.location-listing:hover .location-title {
+    opacity: 1;
+}
+
+.location-listing:hover .location-image img {
+    filter: blur(2px);
+}
+
+
+/* for touch screen devices */
+@media (hover: none) {
+    .location-title {
+        opacity: 1;
+    }
+    .location-image img {
+        filter: blur(2px);
+    }
+}
+
